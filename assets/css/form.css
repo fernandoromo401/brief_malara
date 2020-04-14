@@ -1,0 +1,34 @@
+#regiration_form fieldset:not(:first-of-type) {
+    display: none;
+}
+.logo-malara{
+    width: 10%;
+}
+.height{
+    overflow-y: scroll;
+    height: 50vh;
+}
+.height::-webkit-scrollbar{
+    width: 7px;
+    background: rgba(0, 0, 0, 0.3);
+}
+.height::-webkit-scrollbar-thumb{
+    background: #f0ad4e;
+}
+.bg{
+    background: url(../img/bg2.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+
+@media (max-width: 450px) {
+    .logo-malara{
+        width: 30%;
+    }
+    .titulo{
+        font-size: 20px;
+    }
+}
