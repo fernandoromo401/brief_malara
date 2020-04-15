@@ -1,0 +1,77 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 50px;
+    padding-top: 10px;
+}
+.container{
+    padding: 100px;
+    padding-top: 0;
+    background-image:  url("../img/bg.jpg");
+}
+.titulo{
+    background-color: rgb(31, 41, 54);
+    color: white;
+    padding: 10px;
+    width: 50%;
+    box-shadow: rgb(31, 41, 54);
+    -webkit-box-shadow: 4px 10px 21px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 10px 21px -10px rgba(0,0,0,0.75);
+    box-shadow: 4px 10px 21px -10px rgba(0,0,0,0.75);
+    text-align: end;
+    position: relative;
+    left: -100px;
+    font-size: 26px;
+}
+.tamaño-pdf{
+    text-align: center;
+}
+table{
+    border-spacing: 0px;
+    width: 100%;
+}
+th{
+    background-color: rgb(252, 237, 162);
+    border: 2px solid rgb(240, 212, 31);
+    border-top: 0px;
+    max-width: 50%;
+}
+td{
+    background-color: white;
+    border: 2px solid rgb(240, 212, 31);
+    border-top: 0px;
+    border-left: 0px;
+}
+.border{
+    border-top: 2px solid rgb(240, 212, 31);
+}
+.pt-5{
+    padding-top: 10px;
+}
+.pregunta{
+    width: 50%;
+    min-width: 50%;
+}
+.respuesta{
+    width: 50%;
+    min-width: 50%;
+}
+.font{
+    font-size: 21px;
+    font-weight: bold;
+}
+.header{
+    background-color: rgb(31, 41, 54);
+    color: white;
+}
+.subtitulo{
+    margin-bottom: 0;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+.titulo-h1{
+    padding-top: 10px;
+    padding-left: 10px;
+}
