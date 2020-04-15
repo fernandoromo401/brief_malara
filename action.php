@@ -1,5 +1,5 @@
 <?php
-$conn = mysqli_connect("127.0.0.1", "root", "", "brief_malara");
+require_once('./assets/php/db.php');
 $data = [
     'p0-1'  => $_POST['p0-1'],
     'p0-2'  => $_POST['p0-2'],

@@ -7,29 +7,31 @@ body{
     padding-top: 10px;
 }
 .container{
-    padding: 100px;
+    padding: 0px;
     padding-top: 0;
-    background-image:  url("../img/bg.jpg");
+    background-image:  url("https://media.istockphoto.com/vectors/seamless-floral-background-pattern-in-pastel-pink-gray-vintage-color-vector-id1032865636?k=6&m=1032865636&s=170667a&w=0&h=Mh1Tg0TBCV2UVbuGiRE6s0WmYnmeQLND1FoOScDFXBs=");
 }
 .titulo{
     text-transform: uppercase;
     background-color: rgb(31, 41, 54);
     color: white;
     padding: 10px;
-    width: 50%;
+    width: 80%;
     box-shadow: rgb(31, 41, 54);
     -webkit-box-shadow: 4px 10px 21px -10px rgba(0,0,0,0.75);
     -moz-box-shadow: 4px 10px 21px -10px rgba(0,0,0,0.75);
     box-shadow: 4px 10px 21px -10px rgba(0,0,0,0.75);
-    text-align: end;
+    text-align: right;
     position: relative;
     left: -100px;
-    font-size: 26px;
+    font-size: 18px;
 }
 .tamaño-pdf{
     text-align: center;
 }
 table{
+    padding-left: 5%;
+    padding-right: 5%;
     border-spacing: 0px;
     width: 100%;
 }
@@ -40,6 +42,7 @@ th{
     max-width: 50%;
     min-height: 54px !important;
     height: auto;
+    font-size: 12px;
 }
 td{
     background-color: white;
@@ -47,6 +50,8 @@ td{
     border-top: 0px;
     border-left: 0px;
     height: 54px;
+    font-size: 11px;
+    text-align: center;
 }
 .border{
     border-top: 2px solid rgb(240, 212, 31);
@@ -63,26 +68,32 @@ td{
     min-width: 50%;
 }
 .font{
-    font-size: 21px;
+    font-size: 14px;
     font-weight: bold;
 }
 .header{
     background-color: rgb(31, 41, 54);
     color: white;
+    max-height: 80px !important;
 }
 .subtitulo{
     margin-bottom: 0;
     padding-bottom: 5px;
-    padding-left: 10px;
+    padding-left: 10px;  
 }
 .titulo-h1{
     padding-top: 10px;
     padding-left: 10px;
 }
 .logo-m{
-    width: 150px !important;
-    float: right;
+    display: block;
+    width: 100px !important;
     margin-right: 15px;
-    position: relative;
-    bottom: 50px;
+    margin-top: 40px;
+    float: right;
+    
+}
+.logo-derecha{
+    margin-bottom: 10px;
+    z-index: 5;
 }

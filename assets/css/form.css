@@ -24,6 +24,11 @@
     
 }
 
+.volver{
+    position: absolute;
+    left: 5px;
+}
+
 @media (max-width: 450px) {
     .logo-malara{
         width: 30%;
